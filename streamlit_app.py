@@ -12,7 +12,7 @@ from datetime import datetime
 # -----------------------------
 # 1️⃣ LOAD MODELS & ARTIFACTS
 # -----------------------------
-MODEL_PATH = "Organized_New/models_colab/"
+MODEL_PATH = "models/"
 
 models = {
     "Ensemble": joblib.load(MODEL_PATH + "ENSEMBLE_model.pkl"),
