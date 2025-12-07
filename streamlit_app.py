@@ -30,7 +30,7 @@ label_encoder_target = joblib.load(MODEL_PATH + "label_encoder_target.pkl")
 selected_features = joblib.load(MODEL_PATH + "selected_features.pkl")
 
 df_cleaned = pd.read_csv(MODEL_PATH + "full_dataset_for_streamlit.csv", encoding="ISO-8859-1")
-uni_df = pd.read_csv("Uni_Data.csv", encoding="ISO-8859-1")
+uni_df = pd.read_csv("Notebooks/Uni_Data.csv", encoding="ISO-8859-1")
 
 df_cleaned.columns = df_cleaned.columns.str.strip()
 uni_df.columns = uni_df.columns.str.strip()
